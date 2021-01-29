@@ -201,18 +201,13 @@ def main():
     if arguments['--console']:
         to_console = True
     options = ['translations', 'synsets', 'definitions', 'examples']
-    for mode_option in [*options, 'all', 'test']:#['all', 'synsets', 'words', 'test']:
+    for mode_option in [*options, 'all', 'test']:
         if arguments[mode_option]:
             mode = mode_option
 
     script_dir = os.path.dirname(__file__)
     if not os.path.exists('output'):
         os.makedirs('output')
-    """
-    if mode not in options and mode != 'all' and mode != 'test':
-        raise ValueError('ValueError: unknown mode')
-
-    """
 
     fi_wn = os.path.join(script_dir, 'wordnets', 'finnwordnet', 'rels', 'fiwn-transls.tsv')
     fin_vocab = extract_fin(fi_wn)
