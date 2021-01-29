@@ -19,6 +19,10 @@ Where XXXXXXXX is the WordNet 3.0 offset and y is a POS tag.
 - b - adverb (Finnish uses r instead of b)
 - a - adjective
 
+### Definitions and example sentences
+
+Only the Hungarian WordNet contains definitions and examples sentences. These can be extracted using the actions described below.
+
 ### Usage
 
 The script supports five actions: `translations`, `synsets`, `definitions`, `examples` and `all`.
