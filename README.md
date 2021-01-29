@@ -24,15 +24,13 @@ Where XXXXXXXX is the WordNet 3.0 offset and y is a POS tag.
 The script supports five actions: `translations`, `synsets`, `definitions`, `examples` and `all`.
 When using the `--console` option, the output will be put on the console, instead of files.
 
-```python3 connect_wordnets.py translations [--console]```
-
-```python3 connect_wordnets.py synsets [--console]```
-
-```python3 connect_wordnets.py definitions [--console]```
-
-```python3 connect_wordnets.py examples [--console]```
-
-```python3 connect_wordnets.py all [--console]```
+```
+python3 connect_wordnets.py translations [--console]
+python3 connect_wordnets.py synsets [--console]
+python3 connect_wordnets.py definitions [--console]
+python3 connect_wordnets.py examples [--console]
+python3 connect_wordnets.py all [--console]
+```
 
 1. translations: connects the two WordNets and outputs the word pairs of the connected synsets. The file is saved in the output directory as wordnet_wordpairs.tsv.
 
