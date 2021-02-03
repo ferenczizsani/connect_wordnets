@@ -10,14 +10,14 @@ Offset in the Finnish WordNet:
 Offset in the Hungarian WordNet:
 `ENG30-XXXXXXXX-y`
 
-Where XXXXXXXX is the WordNet 3.0 offset and y is a POS tag.
+Where XXXXXXXX is an 8 digit, zero-filled decimal integer used in Princeton WordNet 3.0 and y is a POS tag.
 
 ### POS tags in WordNets:
 
 - n - noun
 - v - verb
-- b - adverb (Finnish uses r instead of b)
 - a - adjective
+- r - adverb (Hungarian uses b instead of r)
 
 ### Definitions and example sentences
 
@@ -57,13 +57,13 @@ When using `translations`, the file looks like below:
 lang1_word  lang2_word  pos_tag offset
 ```
 
-The wordnet_synsets.tsv file looks like the following:
+The output of the `synsets` action looks like the following:
 
 ```
 pos_tag offset  lang_code   synset
 ```
 
-The wordnet_hu_defs.tsv and the wordnet_hu_examp.tsv look like this:
+The output of the `definitions` and `examples` actions looks like this:
 
 ```
 pos_tag offset  word    sentence
