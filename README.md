@@ -1,8 +1,8 @@
 # WordNet Connector
 
-Connecting Finnish and Hungarian WordNets using offsets.
+Connecting Finnish and Hungarian WordNets using synset offsets.
 
-### Offset
+### Synset offset
 
 Offset in the Finnish WordNet:
 `fi:yXXXXXXXX`
