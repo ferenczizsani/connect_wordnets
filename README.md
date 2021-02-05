@@ -40,9 +40,9 @@ connect_wordnets.py all [--console]
 
 2. synsets: outputs the offset, part of speech tag, language code and the elements of a synset. The file is saved in the output directory as wordnet_synsets.tsv.
 
-3. definitions: saves the Hungarian definitions into a file. The file is saved in the output directory as wordnet_hu_defs.tsv.
+3. definitions: saves the Hungarian definitions into a file. The file is saved in the output directory as wordnet_definitions_hu.tsv.
 
-4. examples: saves the Hungarian example sentences into a file. The file is saved in the output directory as wordnet_hu_examps.tsv.
+4. examples: saves the Hungarian example sentences into a file. The file is saved in the output directory as wordnet_examples_hu.tsv.
 
 5. all: do all of the above.
 
