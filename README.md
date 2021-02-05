@@ -2,6 +2,12 @@
 
 Connecting Finnish and Hungarian WordNets using synset offsets.
 
+### WordNets
+
+In order to connect them, the [Hungarian](https://github.com/dlt-rilmta/huwn) and [Finnish WordNets](https://www.kielipankki.fi/corpora/finnwordnet/) are needed.
+Here, we use the [huwn.xml](https://github.com/dlt-rilmta/huwn/blob/master/huwn.xml) and the [data/rels/fiwn-transls.tsv](https://github.com/frankier/fiwn/blob/master/data/rels/fiwn-transls.tsv) files to create the wordpairs. You can find these files in the `wordnets/` folder in this repository.
+
+
 ### Synset offset
 
 Offset in the Finnish WordNet:
@@ -54,18 +60,22 @@ The output is always a tab-separated file.
 When using `translations`, the file looks like below:
 
 ```
-lang1_word  lang2_word  pos_tag offset
+lang1_word  <tab>  lang2_word <tab>  pos_tag  <tab>  offset
 ```
 
 The output of the `synsets` action looks like the following:
 
 ```
-pos_tag offset  lang_code   synset
+pos_tag  <tab>  offset  <tab>  lang_code  <tab>  synset
 ```
 
 The output of the `definitions` and `examples` actions looks like this:
 
 ```
-pos_tag offset  word    sentence
+pos_tag  <tab>  offset  <tab>  word  <tab>  sentence
 ```
 
+
+### License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
