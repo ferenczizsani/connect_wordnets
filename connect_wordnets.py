@@ -139,8 +139,8 @@ def write_file(script_dir, pairs, hudefs, huexs, type='translations', to_console
     output_file = {
         'synsets'        : 'wordnet_synsets.tsv',
         'translations'   : 'wordnet_wordpairs.tsv',
-        'definitions'    : 'wordnet_hu_defs.tsv',
-        'examples'       : 'wordnet_hu_examps.tsv',
+        'definitions'    : 'wordnet_definitions_hu.tsv',
+        'examples'       : 'wordnet_examples_hu.tsv',
     }[type]
 
     foutput = os.path.join(script_dir, 'output', output_file)
