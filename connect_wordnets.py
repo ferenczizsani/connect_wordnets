@@ -13,7 +13,7 @@ Usage:
     connect_wordnets.py -h | --help
 
 Options:
-    -h --help   Show this screen.
+    -h --help    Show this screen.
     --console    Write to console.
 """
 
@@ -209,7 +209,7 @@ def main():
     if not os.path.exists('output'):
         os.makedirs('output')
 
-    fi_wn = os.path.join(script_dir, 'wordnets', 'finnwordnet', 'rels', 'fiwn-transls.tsv')
+    fi_wn = os.path.join(script_dir, 'wordnets', 'fiwn.tsv')
     fin_vocab = extract_fin(fi_wn)
 
     hu_wn = os.path.join(script_dir, 'wordnets', 'huwn.xml')
