@@ -16,14 +16,17 @@ Offset in the Finnish WordNet:
 Offset in the Hungarian WordNet:
 `ENG30-XXXXXXXX-y`
 
-Where XXXXXXXX is an 8 digit, zero-filled decimal integer used in Princeton WordNet 3.0 and y is a POS tag.
+Where `XXXXXXXX` is an 8 digit, zero-filled decimal integer used in Princeton WordNet 3.0 and `y` is a POS tag.
 
-### POS tags in WordNets:
+### POS tags
 
+In WordNet, the POS tag of a synset is marked with one of the following characters:
 - n - noun
 - v - verb
 - a - adjective
 - r - adverb (Hungarian uses b instead of r)
+
+The script maps these tags to the Universal POS tag set (https://universaldependencies.org/u/pos/).
 
 ### Definitions and example sentences
 
