@@ -125,6 +125,7 @@ def extract_hun(hu_wn):
                     if word not in hun_defs[hu_offset][hupos]:
                         hun_defs[hu_offset][hupos][word] = set()
                     hun_defs[hu_offset][hupos][word].add(hudef)
+                hudef = None
             if hu_offset in hun_vocab:
                 if hupos in hun_vocab[hu_offset]:
                     hun_vocab[hu_offset][hupos].update(huword_list)
