@@ -81,5 +81,6 @@ pos_tag  <tab>  offset  <tab>  word  <tab>  sentence
 
 ### License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-The Hungarian WordNet is licensed under [META-SHARE Commons BY NC ND License v1.0](http://www.meta-net.eu/meta-share/meta-share-licenses/META-SHARE%20COMMONS_BYNCND%20v1.0.pdf).
+This work is licensed under the <a href="LICENSE">GNU AGPL v3.0 License</a>.
+The Hungarian WordNet is licensed under the [META-SHARE Commons BY NC ND License v1.0](http://www.meta-net.eu/meta-share/meta-share-licenses/META-SHARE%20COMMONS_BYNCND%20v1.0.pdf).
+The FinnWordNet is licensed under the [Creative Commons Attribution (CC-BY) 3.0 License](https://creativecommons.org/licenses/by/3.0/).
